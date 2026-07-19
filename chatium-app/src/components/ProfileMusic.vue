@@ -1,0 +1,1 @@
+<template>Music player component for profile. Shows track name, play/pause button with animated visualizer bars. Edit title and delete buttons for own profile (premium). File upload for adding music.</template>

@@ -1,0 +1,1 @@
+<template>Support chat view component. Uses useChatClient for real-time messaging. Shows agent typing indicator. Used in both user and admin support pages.</template>

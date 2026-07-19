@@ -1,0 +1,1 @@
+<template>Display gifts received by a user. Grid of gift cards with emoji, name, sender, date. Hide/show toggle for own gifts. Used in profile pages.</template>

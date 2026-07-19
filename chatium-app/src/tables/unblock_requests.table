@@ -1,0 +1,15 @@
+{
+  "name": "t_land_t_land_t_land_unblock_requests_XW7_9bK_pC2",
+  "title": "Запросы на разблокировку",
+  "description": "Запросы от заблокированных пользователей на разблокировку через техподдержку",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "StringKind", "title": "ID пользователя", "searchable": { "enabled": true } },
+    { "name": "supportTicketId", "kind": "StringKind", "title": "ID тикета поддержки", "searchable": { "enabled": true } },
+    { "name": "status", "kind": "StringKind", "title": "Статус (pending/approved/rejected)" },
+    { "name": "processedBy", "kind": "StringKind", "title": "Кто обработал" },
+    { "name": "processedAt", "kind": "DateTimeKind", "title": "Дата обработки" },
+    { "name": "message", "kind": "StringKind", "title": "Сообщение пользователя" }
+  ]
+}

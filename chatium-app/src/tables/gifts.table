@@ -1,0 +1,16 @@
+{
+  "name": "t_land_gifts_Y5Q",
+  "title": "Каталог подарков",
+  "description": "Доступные подарки для отправки пользователям",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "name", "kind": "StringKind", "title": "Название подарка", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "emoji", "kind": "StringKind", "title": "Эмодзи подарка" },
+    { "name": "description", "kind": "StringKind", "title": "Описание" },
+    { "name": "price", "kind": "NumberKind", "title": "Цена в звёздах" },
+    { "name": "category", "kind": "StringKind", "title": "Категория" },
+    { "name": "isLimited", "kind": "BooleanKind", "title": "Лимитированный" },
+    { "name": "backdropColor", "kind": "StringKind", "title": "Цвет фона" }
+  ]
+}

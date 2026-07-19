@@ -1,0 +1,1 @@
+<template>Gift shop modal for sending gifts. Shows available gifts with emoji, name, price in stars. Categories filter. Search. Send with optional message.</template>

@@ -1,0 +1,1 @@
+<template>User card component showing avatar, display name, username, serial number (#ID), verified badge. Click navigates to user profile. Compact design for lists.</template>

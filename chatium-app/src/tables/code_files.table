@@ -1,0 +1,11 @@
+{
+  "name": "code_files",
+  "title": "Файлы кода",
+  "description": "Хранилище содержимого файлов проекта для обозревателя кода",
+  "fields": [
+    { "name": "path", "kind": "StringKind", "title": "Путь к файлу" },
+    { "name": "name", "kind": "StringKind", "title": "Имя файла" },
+    { "name": "content", "kind": "StringKind", "title": "Содержимое файла" },
+    { "name": "language", "kind": "StringKind", "title": "Язык" }
+  ]
+}

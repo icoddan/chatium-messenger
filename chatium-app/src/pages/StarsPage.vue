@@ -1,0 +1,1 @@
+<template>Stars balance page. Shows current balance, how stars work info. Gift shop access. Request more stars button.</template>

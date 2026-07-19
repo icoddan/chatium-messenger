@@ -1,0 +1,15 @@
+{
+  "name": "t_land_t_land_verification_requests_vF3_8Lu",
+  "title": "Запросы на верификацию",
+  "description": "Запросы на верификацию групп и каналов через техподдержку",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "groupId", "kind": "StringKind", "title": "ID группы/канала", "searchable": { "enabled": true } },
+    { "name": "requestedBy", "kind": "UserRefLinkKind", "title": "Кто запросил", "onDelete": "restrict" },
+    { "name": "status", "kind": "StringKind", "title": "Статус (pending/approved/rejected)" },
+    { "name": "processedBy", "kind": "UserRefLinkKind", "title": "Кто обработал", "onDelete": "restrict" },
+    { "name": "processedAt", "kind": "DateTimeKind", "title": "Дата обработки" },
+    { "name": "supportChatExternalId", "kind": "StringKind", "title": "External ID чата поддержки", "searchable": { "enabled": true } }
+  ]
+}

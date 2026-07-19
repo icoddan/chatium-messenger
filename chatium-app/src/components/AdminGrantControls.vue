@@ -1,0 +1,1 @@
+<template>Admin controls for granting stars and premium. Two modals: Grant Stars (with quick buttons +10, +50, +100, +500, +1K and custom amount) and Grant Premium (7d, 30d, 90d, 1 year, Forever). Quick-accrual section for self. Compact inline buttons for user rows.</template>

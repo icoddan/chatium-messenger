@@ -1,0 +1,17 @@
+{
+  "name": "t_land_sent_gifts_sXX",
+  "title": "Отправленные подарки",
+  "description": "История отправленных подарков между пользователями",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "giftId", "kind": "StringKind", "title": "ID подарка" },
+    { "name": "fromUserId", "kind": "UserRefLinkKind", "title": "От кого", "onDelete": "restrict" },
+    { "name": "toUserId", "kind": "UserRefLinkKind", "title": "Кому", "onDelete": "restrict" },
+    { "name": "message", "kind": "StringKind", "title": "Сообщение к подарку" },
+    { "name": "giftName", "kind": "StringKind", "title": "Название подарка" },
+    { "name": "giftEmoji", "kind": "StringKind", "title": "Эмодзи подарка" },
+    { "name": "giftBackdrop", "kind": "StringKind", "title": "Цвет фона" },
+    { "name": "isHidden", "kind": "BooleanKind", "title": "Скрыт из профиля" }
+  ]
+}

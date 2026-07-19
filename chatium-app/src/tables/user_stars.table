@@ -1,0 +1,11 @@
+{
+  "name": "t_land_t_land_user_stars_X7K_8pO",
+  "title": "Баланс звёзд пользователей",
+  "description": "Количество звёзд у каждого пользователя для отправки подарков",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Пользователь", "onDelete": "restrict" },
+    { "name": "balance", "kind": "NumberKind", "title": "Баланс звёзд" }
+  ]
+}

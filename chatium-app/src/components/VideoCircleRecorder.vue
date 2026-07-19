@@ -1,0 +1,1 @@
+<template>Circular video recorder for avatar/background capture. Uses getUserMedia. Record and upload video/photo for profile media.</template>

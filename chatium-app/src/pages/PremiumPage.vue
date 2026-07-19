@@ -1,0 +1,1 @@
+<template>Premium subscription page. Shows available plans with features, prices in stars. Subscribe button. Current subscription info if already premium. Cancel auto-renew option.</template>

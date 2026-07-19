@@ -1,0 +1,16 @@
+{
+  "name": "t_land_t_land_dialogs_m7K_1Ly",
+  "title": "Диалоги пользователей",
+  "description": "Список чатов/диалогов между пользователями с последним сообщением",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "participant1", "kind": "UserRefLinkKind", "title": "Участник 1", "onDelete": "restrict" },
+    { "name": "participant2", "kind": "UserRefLinkKind", "title": "Участник 2", "onDelete": "restrict" },
+    { "name": "dialogExternalId", "kind": "StringKind", "title": "External ID диалога", "searchable": { "enabled": true } },
+    { "name": "lastMessageText", "kind": "StringKind", "title": "Текст последнего сообщения" },
+    { "name": "lastMessageAt", "kind": "DateTimeKind", "title": "Время последнего сообщения" },
+    { "name": "lastMessageBy", "kind": "UserRefLinkKind", "title": "Кто отправил последнее сообщение", "onDelete": "restrict" },
+    { "name": "unreadCount", "kind": "NumberKind", "title": "Непрочитанные сообщения" }
+  ]
+}

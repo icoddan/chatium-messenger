@@ -1,0 +1,1 @@
+<template>Sticker/emoji picker for chat. Grid of emoji stickers organized by category. Click to select and send as message. Popup overlay with search.</template>

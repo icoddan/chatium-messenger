@@ -1,0 +1,1 @@
+<template>User support chat. Opens ticket, shows chat with support agent. Can request verification of groups via /verif command. Star request functionality.</template>

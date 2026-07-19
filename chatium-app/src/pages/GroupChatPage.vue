@@ -1,0 +1,1 @@
+<template>Group/channel chat using useChatClient. Shows group info panel with member list. Owner/admin can manage members. Channel subscribers view limited info.</template>

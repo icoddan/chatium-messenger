@@ -1,0 +1,1 @@
+<template>Admin page for managing star requests from users. Lists requests with amounts, reasons. Approve/reject buttons. Grant stars dialog.</template>

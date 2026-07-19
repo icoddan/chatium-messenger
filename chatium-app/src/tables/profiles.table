@@ -1,0 +1,21 @@
+{
+  "name": "t_land_profiles_SPn",
+  "title": "Профили пользователей",
+  "description": "Расширенные профили пользователей с верификацией и уникальными ID",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "StringKind", "title": "ID системного пользователя" },
+    { "name": "displayName", "kind": "StringKind", "title": "Отображаемое имя", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "username", "kind": "StringKind", "title": "Уникальное имя пользователя", "searchable": { "enabled": true } },
+    { "name": "serialNumber", "kind": "NumberKind", "title": "Порядковый номер" },
+    { "name": "bio", "kind": "StringKind", "title": "О себе" },
+    { "name": "isVerified", "kind": "BooleanKind", "title": "Верифицирован" },
+    { "name": "verifiedBy", "kind": "StringKind", "title": "Кто верифицировал" },
+    { "name": "verifiedAt", "kind": "DateTimeKind", "title": "Дата верификации" },
+    { "name": "avatarHash", "kind": "StringKind", "title": "Хэш аватара" },
+    { "name": "backgroundHash", "kind": "StringKind", "title": "Хэш фона профиля" },
+    { "name": "musicHash", "kind": "StringKind", "title": "Хэш музыкального трека профиля" },
+    { "name": "musicName", "kind": "StringKind", "title": "Название трека профиля" }
+  ]
+}

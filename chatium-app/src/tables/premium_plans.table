@@ -1,0 +1,18 @@
+{
+  "name": "t_land_premium_plans_9ud",
+  "title": "Премиум-планы",
+  "description": "Тарифные планы Premium подписки",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "name", "kind": "StringKind", "title": "Название плана", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "description", "kind": "StringKind", "title": "Описание" },
+    { "name": "priceStars", "kind": "NumberKind", "title": "Цена в звёздах" },
+    { "name": "durationDays", "kind": "NumberKind", "title": "Длительность в днях" },
+    { "name": "badgeColor", "kind": "StringKind", "title": "Цвет бейджа Premium" },
+    { "name": "icon", "kind": "StringKind", "title": "Иконка плана" },
+    { "name": "features", "kind": "StringKind", "title": "Список возможностей (JSON)" },
+    { "name": "isActive", "kind": "BooleanKind", "title": "План активен" },
+    { "name": "sortOrder", "kind": "NumberKind", "title": "Порядок сортировки" }
+  ]
+}

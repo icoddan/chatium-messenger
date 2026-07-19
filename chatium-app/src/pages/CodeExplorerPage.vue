@@ -1,0 +1,1 @@
+<template>Admin code explorer with file tree and code viewer. Split panel: left sidebar with collapsible file tree, right panel with syntax-highlighted code. Copy to clipboard, file info (name, path, size, language). Dark theme similar to VS Code.</template>

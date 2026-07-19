@@ -1,0 +1,1 @@
+<template>Premium badge component. Shows crown icon with "Codagram Premium" tooltip. Different colors based on premium plan. Small inline badge for user cards.</template>

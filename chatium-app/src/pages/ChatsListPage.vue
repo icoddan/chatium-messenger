@@ -1,0 +1,1 @@
+<template>List of all user dialogs/chats. Shows partner name, last message, unread indicator. Click opens ChatPage. Search by name.</template>

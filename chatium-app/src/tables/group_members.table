@@ -1,0 +1,13 @@
+{
+  "name": "t_land_t_land_group_members_Vx9_90j",
+  "title": "Участники групп",
+  "description": "Участники групп и подписчики каналов",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "groupId", "kind": "StringKind", "title": "ID группы/канала", "searchable": { "enabled": true } },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Пользователь", "onDelete": "restrict" },
+    { "name": "role", "kind": "StringKind", "title": "Роль (owner/admin/member/subscriber)" },
+    { "name": "joinedAt", "kind": "DateTimeKind", "title": "Дата присоединения" }
+  ]
+}

@@ -1,0 +1,1 @@
+<template>One-on-one chat using useChatClient. Message list, input with send button, sticker picker, call buttons (audio/video), message edit/delete. Real-time updates via WebSocket.</template>

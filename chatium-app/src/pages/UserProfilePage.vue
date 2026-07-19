@@ -1,0 +1,1 @@
+<template>View another user profile. Shows avatar, background, music player, display name, username, bio, verified badge, serial number. Actions: message, call (audio/video), verify (for staff), report, send gift. Stars display.</template>

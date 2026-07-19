@@ -1,0 +1,1 @@
+<template>Video/audio call overlay UI. Shows caller info, avatar, call duration. Incoming call notification with accept/reject. Active call controls: mute, speaker, end call, video toggle. WebRTC integration.</template>

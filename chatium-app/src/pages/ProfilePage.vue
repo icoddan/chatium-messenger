@@ -1,0 +1,1 @@
+<template>User profile page with avatar, background image (premium), music player (premium), display name, username, bio editing. Stars balance, Premium subscription info. File upload for avatar, background, and music.</template>

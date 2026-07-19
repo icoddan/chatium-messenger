@@ -1,0 +1,1 @@
+<template>Browse public groups and channels. Search by name. Join/subscribe buttons. Shows member count, verified badge. Filter by type (groups/channels).</template>

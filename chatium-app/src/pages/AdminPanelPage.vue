@@ -1,0 +1,1 @@
+<template>Admin control panel with tabs: Users (list, roles, block/unblock), Blocked, Accrual (grant stars and premium). Compact mobile-friendly buttons. AdminGrantControls component for granting stars/premium to self.</template>

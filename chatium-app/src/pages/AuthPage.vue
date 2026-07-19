@@ -1,0 +1,1 @@
+<template>Login/Register page with email+password form. Tabs for sign in and sign up. Calls api/auth/register for registration and redirects to platform auth for sign in.</template>

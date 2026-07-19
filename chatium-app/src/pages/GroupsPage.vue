@@ -1,0 +1,1 @@
+<template>User groups and channels. List with create button. Shows groups and channels user is member of. Create dialog with name, type, description, username, public toggle. Leave/delete options.</template>

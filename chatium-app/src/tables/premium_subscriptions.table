@@ -1,0 +1,16 @@
+{
+  "name": "t_land_premium_subscriptions_gjm",
+  "title": "Премиум-подписки пользователей",
+  "description": "Активные и завершённые Premium подписки пользователей",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Пользователь", "onDelete": "restrict" },
+    { "name": "planId", "kind": "StringKind", "title": "ID плана" },
+    { "name": "status", "kind": "StringKind", "title": "Статус (active/cancelled/expired)" },
+    { "name": "startedAt", "kind": "DateTimeKind", "title": "Дата начала" },
+    { "name": "expiresAt", "kind": "DateTimeKind", "title": "Дата окончания" },
+    { "name": "autoRenew", "kind": "BooleanKind", "title": "Автопродление" },
+    { "name": "grantedBy", "kind": "UserRefLinkKind", "title": "Кем выдано (Admin/Staff)", "onDelete": "restrict" }
+  ]
+}

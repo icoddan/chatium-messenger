@@ -1,0 +1,16 @@
+{
+  "name": "t_land_reports_JHV",
+  "title": "Жалобы на пользователей",
+  "description": "Жалобы пользователей друг на друга с модерацией",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Кто жалуется", "onDelete": "restrict" },
+    { "name": "targetUserId", "kind": "StringKind", "title": "На кого жалуются", "searchable": { "enabled": true } },
+    { "name": "reason", "kind": "StringKind", "title": "Причина жалобы" },
+    { "name": "description", "kind": "StringKind", "title": "Описание жалобы", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "status", "kind": "StringKind", "title": "Статус (pending/resolved/dismissed)" },
+    { "name": "resolvedBy", "kind": "StringKind", "title": "Кто обработал" },
+    { "name": "resolvedAt", "kind": "DateTimeKind", "title": "Дата обработки" }
+  ]
+}

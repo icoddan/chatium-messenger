@@ -1,0 +1,14 @@
+{
+  "name": "t_land_message_actions_8Mr",
+  "title": "Действия с сообщениями",
+  "description": "История редактирования и удаления сообщений в чатах",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "chatExternalId", "kind": "StringKind", "title": "ID чата" },
+    { "name": "messageId", "kind": "StringKind", "title": "ID сообщения" },
+    { "name": "action", "kind": "StringKind", "title": "Действие" },
+    { "name": "newText", "kind": "StringKind", "title": "Новый текст" },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Пользователь", "onDelete": "restrict" }
+  ]
+}

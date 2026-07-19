@@ -1,0 +1,1 @@
+<template>Ticket chat component for admin support panel. Shows ticket info, chat messages, close ticket button. Assign to self functionality.</template>

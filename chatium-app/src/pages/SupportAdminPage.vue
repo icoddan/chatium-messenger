@@ -1,0 +1,1 @@
+<template>Staff/Admin support panel. Lists tickets with status. Can assign, reply, close tickets. Verification requests tab for approving/rejecting group verification. Star requests tab.</template>

@@ -1,0 +1,20 @@
+{
+  "name": "t_land_t_land_groups_u9E_M1k",
+  "title": "Группы и каналы",
+  "description": "Группы (чаты с участниками) и каналы (трансляции) пользователей",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "name", "kind": "StringKind", "title": "Название", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "description", "kind": "StringKind", "title": "Описание", "searchable": { "enabled": true, "embeddings": true } },
+    { "name": "type", "kind": "StringKind", "title": "Тип (group/channel)" },
+    { "name": "ownerId", "kind": "UserRefLinkKind", "title": "Владелец", "onDelete": "restrict" },
+    { "name": "username", "kind": "StringKind", "title": "Имя пользователя (@username)", "searchable": { "enabled": true } },
+    { "name": "avatarHash", "kind": "StringKind", "title": "Хэш аватара" },
+    { "name": "isVerified", "kind": "BooleanKind", "title": "Верифицирована (жёлтая галочка)" },
+    { "name": "verifiedBy", "kind": "StringKind", "title": "Кто верифицировал" },
+    { "name": "verifiedAt", "kind": "DateTimeKind", "title": "Дата верификации" },
+    { "name": "isPublic", "kind": "BooleanKind", "title": "Публичная" },
+    { "name": "chatExternalId", "kind": "StringKind", "title": "External ID чата для messenger", "searchable": { "enabled": true } }
+  ]
+}

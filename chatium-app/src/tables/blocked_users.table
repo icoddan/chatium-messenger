@@ -1,0 +1,16 @@
+{
+  "name": "t_land_t_land_blocked_users_7Kd_BLk",
+  "title": "Заблокированные пользователи",
+  "description": "Пользователи, заблокированные в приложении временно или навсегда",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "StringKind", "title": "ID пользователя", "searchable": { "enabled": true } },
+    { "name": "reason", "kind": "StringKind", "title": "Причина блокировки", "searchable": { "enabled": true } },
+    { "name": "blockedBy", "kind": "StringKind", "title": "Кто заблокировал" },
+    { "name": "blockedAt", "kind": "DateTimeKind", "title": "Дата блокировки" },
+    { "name": "blockedUntil", "kind": "DateTimeKind", "title": "Блокировка до (для временной)" },
+    { "name": "isPermanent", "kind": "BooleanKind", "title": "Навсегда" },
+    { "name": "isActive", "kind": "BooleanKind", "title": "Активна ли блокировка" }
+  ]
+}

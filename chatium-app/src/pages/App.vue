@@ -1,0 +1,1 @@
+<template>Main app component with navigation between all sections: chat, profile, users, groups, channels, support, admin, etc. Uses ctx.currentView for routing. Has NavBar, theme handling, and responsive layout.</template>

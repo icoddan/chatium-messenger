@@ -1,0 +1,1 @@
+<template>Panel for Staff/Admin to verify users. Shows list of unverified users with avatar, name, verify button.</template>

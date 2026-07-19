@@ -1,0 +1,14 @@
+{
+  "name": "t_land_t_land_support_tickets_gF7_a5m",
+  "title": "Тикеты техподдержки",
+  "description": "Запросы в техподдержку от пользователей",
+  "fields": [
+    { "name": "createdAt", "kind": "DateKind" },
+    { "name": "updatedAt", "kind": "DateKind" },
+    { "name": "userId", "kind": "UserRefLinkKind", "title": "Пользователь", "onDelete": "restrict" },
+    { "name": "subject", "kind": "StringKind", "title": "Тема обращения", "searchable": { "enabled": true } },
+    { "name": "status", "kind": "StringKind", "title": "Статус (open/in_progress/closed)" },
+    { "name": "assignedTo", "kind": "UserRefLinkKind", "title": "Назначен на", "onDelete": "restrict" },
+    { "name": "chatExternalId", "kind": "StringKind", "title": "External ID чата", "searchable": { "enabled": true } }
+  ]
+}

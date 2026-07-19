@@ -1,0 +1,1 @@
+<template>Staff/Admin page for managing user reports. Lists reports with reporter, target, reason. Resolve/dismiss actions.</template>

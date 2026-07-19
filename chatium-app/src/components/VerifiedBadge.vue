@@ -1,0 +1,1 @@
+<template>Verification badge component. Shows blue checkmark for verified users, yellow/gold star for verified groups/channels. Tooltip with verification info.</template>

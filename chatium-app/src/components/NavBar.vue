@@ -1,0 +1,1 @@
+<template>Sidebar/navigation component. Shows menu items based on user role: Profile, Chats, Groups, Explore, Users, Support, Admin Panel (admin only), Code (admin only). Desktop sidebar + mobile bottom drawer. Icons from FontAwesome.</template>

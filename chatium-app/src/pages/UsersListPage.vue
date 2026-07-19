@@ -1,0 +1,1 @@
+<template>List of all users with search. Shows UserCard components. Click opens UserProfilePage. Includes verified badge, serial numbers.</template>
