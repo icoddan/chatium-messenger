@@ -16,16 +16,14 @@ jobs:
           distribution: 'temurin'
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-      - name: Setup Gradle 8.5
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          gradle-version: '8.5'
       - name: Make gradlew executable
         run: chmod +x gradlew
         working-directory: chatium-app
       - name: Build Debug APK
         run: ./gradlew assembleDebug
         working-directory: chatium-app
+        env:
+          GRADLE_OPTS: -Dorg.gradle.daemon=false -Dorg.gradle.caching=false
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
